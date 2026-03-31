@@ -30,5 +30,17 @@ namespace lista_de_exercicios
             num = Convert.ToInt32(textBox1.Text);
             label6.Text = "Resultado: " + num * num;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+
+        }
     }
 }

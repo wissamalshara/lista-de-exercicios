@@ -19,15 +19,18 @@ namespace lista_de_exercicios
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int m, f, res;
-            m = Convert.ToInt32(textBox1.Text);
-            f = Convert.ToInt32(textBox2.Text);
+            
+            double m, f, res, porm, porf;
+            m = Convert.ToDouble(textBox1.Text);
+            f = Convert.ToDouble(textBox2.Text);
             res = m + f;
+            porm =  res * (m / 100);
+            porf = res * (f / 100);
 
             label3.Text = "Resultado: " + res;
 
-            label1.Text = "Porcentagem de meninos: " + (m/res) * 100 + "%";
-            label1.Text = "Porcentagem de meninas: " + (f / res) * 100 + "%";
+            label1.Text = "Porcentagem de meninos: " + (porm = Math.Ceiling(porm)) + "%";
+            label6.Text = "Porcentagem de meninas: " + (porf = Math.Ceiling(porf)) + "%";
         }
 
         private void label3_Click(object sender, EventArgs e)

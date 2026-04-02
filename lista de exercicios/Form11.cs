@@ -26,7 +26,8 @@ namespace lista_de_exercicios
 
             label3.Text = "Resultado: " + res;
 
-            label1.Text = "Porcentagem de meninos: " + 
+            label1.Text = "Porcentagem de meninos: " + (m/res) * 100 + "%";
+            label1.Text = "Porcentagem de meninas: " + (f / res) * 100 + "%";
         }
 
         private void label3_Click(object sender, EventArgs e)

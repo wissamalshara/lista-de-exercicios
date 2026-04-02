@@ -37,5 +37,10 @@ namespace lista_de_exercicios
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

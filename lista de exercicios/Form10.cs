@@ -16,5 +16,25 @@ namespace lista_de_exercicios
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double R, M;
+            R = Convert.ToDouble(textBox1.Text);
+            M = Convert.ToDouble(textBox2.Text);
+
+            label3.Text = "Resultado: " + R * M + 3 + M;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

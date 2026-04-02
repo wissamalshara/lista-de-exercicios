@@ -48,6 +48,7 @@
             this.button3.TabIndex = 18;
             this.button3.Text = "Sair";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -58,6 +59,7 @@
             this.button2.TabIndex = 17;
             this.button2.Text = "Limpar";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label5
             // 
@@ -86,6 +88,7 @@
             this.button1.TabIndex = 14;
             this.button1.Text = "Realizar equação";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
@@ -120,11 +123,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 9);
+            this.label4.Location = new System.Drawing.Point(89, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(757, 31);
+            this.label4.Size = new System.Drawing.Size(638, 31);
             this.label4.TabIndex = 19;
-            this.label4.Text = "PROGRAMA PARA SOMAR DOIS NÚMEROS INTEIROS";
+            this.label4.Text = "PROGRAMA PARA REALIZAR UMA EQUAÇÃO";
             // 
             // Form10
             // 

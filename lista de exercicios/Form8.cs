@@ -79,6 +79,11 @@ namespace lista_de_exercicios
             Application.Exit();
         }
 
+        private void Form8_Load(object sender, EventArgs e)
+        {
+
+        }
+
         public Form8()
         {
             InitializeComponent();

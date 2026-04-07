@@ -50,6 +50,7 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.Red;
+            this.button5.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button5.Location = new System.Drawing.Point(349, 134);
             this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
@@ -235,9 +236,11 @@
             // 
             // Form7
             // 
+            this.AcceptButton = this.button4;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Olive;
+            this.CancelButton = this.button5;
             this.ClientSize = new System.Drawing.Size(1006, 721);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.button6);

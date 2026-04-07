@@ -24,13 +24,16 @@ namespace lista_de_exercicios
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double ve, txj, np, vt, vtp;
-            
-            ve = Convert.ToDouble(textBox1.Text);
-            txj = Convert.ToDouble(textBox2.Text);
-            np = Convert.ToDouble(textBox3.Text);
-            vt = ve * txj / (1 - Math.Pow(1 + txj, -np));
-            vtp = vt / (double)np;
+            double ve, np, txp, vpt, vt;
+
+            ve = Convert.ToDouble(textBox3.Text);
+            np = Convert.ToDouble(textBox2.Text);
+            txp = Convert.ToDouble(textBox1.Text);
+
+            txp = txp / 100;
+
+            vt = ve + (ve * txp);
+            vpt = vt / np;
 
 
             label5.Text = $"Valor total: {vt:F2}R$";

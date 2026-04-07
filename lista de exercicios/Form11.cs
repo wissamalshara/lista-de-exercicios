@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace lista_de_exercicios
 {
@@ -19,18 +20,22 @@ namespace lista_de_exercicios
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            double m, f, res, porm, porf;
-            m = Convert.ToDouble(textBox1.Text);
-            f = Convert.ToDouble(textBox2.Text);
-            res = m + f;
-            porm =  res * (m / 100);
-            porf = res * (f / 100);
 
-            label3.Text = "Resultado: " + res;
+            double men, meni, res, menper, meniper;
 
-            label1.Text = "Porcentagem de meninos: " + (porm = Math.Ceiling(porm)) + "%";
-            label6.Text = "Porcentagem de meninas: " + (porf = Math.Ceiling(porf)) + "%";
+            men = Convert.ToDouble(textBox1.Text);
+            meni = Convert.ToDouble(textBox2.Text);
+
+
+            res = men + meni;
+
+            menper = (men / res) * 100;
+            meniper = (meni / res) * 100;
+
+            label3.Text = "Total de estudantes: " + res;
+            label1.Text = $"Porcentagem de meninos: {menper:F2}%";
+            label6.Text = $"Porcentagem de meninas: {meniper:F2}%";
+
         }
 
         private void label3_Click(object sender, EventArgs e)

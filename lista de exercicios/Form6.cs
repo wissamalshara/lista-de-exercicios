@@ -35,5 +35,10 @@ namespace lista_de_exercicios
         {
             Application.Exit();
         }
+
+        private void Form6_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

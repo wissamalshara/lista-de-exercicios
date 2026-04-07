@@ -33,8 +33,20 @@ namespace lista_de_exercicios
             vtp = vt / (double)np;
 
 
-            label5.Text = $"Valor total: {vt:F2}";
-            label6.Text = $"Valor por parcela: {vtp:F2}";
+            label5.Text = $"Valor total: {vt:F2}R$";
+            label6.Text = $"Valor por parcela: {vtp:F2}R$";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -37,7 +37,7 @@ namespace lista_de_exercicios
 
 
             label5.Text = $"Valor total: {vt:F2}R$";
-            label6.Text = $"Valor por parcela: {vtp:F2}R$";
+            label6.Text = $"Valor por parcela: {vpt:F2}R$";
         }
 
         private void button2_Click(object sender, EventArgs e)

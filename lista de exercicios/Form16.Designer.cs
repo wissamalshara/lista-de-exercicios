@@ -42,22 +42,21 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Red;
-            this.button3.Location = new System.Drawing.Point(811, 441);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.button3.Location = new System.Drawing.Point(608, 358);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 117);
-            this.button3.TabIndex = 37;
+            this.button3.Size = new System.Drawing.Size(75, 95);
+            this.button3.TabIndex = 5;
             this.button3.Text = "Sair";
             this.button3.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button2.Location = new System.Drawing.Point(32, 441);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Location = new System.Drawing.Point(24, 358);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 117);
-            this.button2.TabIndex = 36;
+            this.button2.Size = new System.Drawing.Size(75, 95);
+            this.button2.TabIndex = 4;
             this.button2.Text = "Limpar";
             this.button2.UseVisualStyleBackColor = false;
             // 
@@ -65,30 +64,27 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(13, 325);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(10, 264);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(200, 29);
+            this.label5.Size = new System.Drawing.Size(156, 24);
             this.label5.TabIndex = 35;
             this.label5.Text = "Acréssimo em %:";
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(300, 284);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox2.Location = new System.Drawing.Point(225, 231);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(132, 107);
-            this.textBox2.TabIndex = 34;
+            this.textBox2.Size = new System.Drawing.Size(100, 88);
+            this.textBox2.TabIndex = 2;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(421, 441);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(316, 358);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(177, 117);
-            this.button1.TabIndex = 33;
+            this.button1.Size = new System.Drawing.Size(133, 95);
+            this.button1.TabIndex = 3;
             this.button1.Text = "Realizar equação";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -97,31 +93,28 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(563, 247);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(422, 201);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(357, 42);
+            this.label3.Size = new System.Drawing.Size(165, 36);
             this.label3.TabIndex = 32;
-            this.label3.Text = "Total de estudantes:";
+            this.label3.Text = "Preço total:";
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(300, 151);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Location = new System.Drawing.Point(225, 123);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(132, 102);
-            this.textBox1.TabIndex = 31;
+            this.textBox1.Size = new System.Drawing.Size(100, 84);
+            this.textBox1.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 168);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(10, 136);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(206, 29);
+            this.label2.Size = new System.Drawing.Size(162, 24);
             this.label2.TabIndex = 30;
             this.label2.Text = "Preço do produto:";
             // 
@@ -129,20 +122,19 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(1, 9);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(1, 7);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(1427, 31);
+            this.label4.Size = new System.Drawing.Size(1123, 25);
             this.label4.TabIndex = 40;
             this.label4.Text = "PROGRAMA PARA GERAR O PREÇO DE UM PRODUTO BASEADO NO ACRÉSSIMO EM PORCENTAGEM";
             // 
             // Form16
             // 
             this.AcceptButton = this.button2;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.button3;
-            this.ClientSize = new System.Drawing.Size(1006, 721);
+            this.ClientSize = new System.Drawing.Size(754, 586);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -152,6 +144,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form16";
             this.Text = "Form16";
             this.ResumeLayout(false);

@@ -37,6 +37,11 @@ namespace lista_de_exercicios
             Application.Exit();
         }
 
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         public Form2()
         {
             InitializeComponent();

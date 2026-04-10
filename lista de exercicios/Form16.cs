@@ -27,5 +27,13 @@ namespace lista_de_exercicios
             ven = prod + (prod * acre);
             label3.Text = $"Novo valor: {ven:F2}R$";
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.FormClosed += (s, args) => this.Show();
+            this.Hide();
+            menu.Show();
+        }
     }
 }

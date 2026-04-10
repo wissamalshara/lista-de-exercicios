@@ -39,6 +39,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button3
@@ -152,6 +153,16 @@
             this.label6.TabIndex = 29;
             this.label6.Text = "Porcentagem de meninas:";
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Teal;
+            this.button4.Location = new System.Drawing.Point(324, 361);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(190, 58);
+            this.button4.TabIndex = 30;
+            this.button4.Text = "Voltar ao menu";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
             // Form11
             // 
             this.AcceptButton = this.button2;
@@ -160,6 +171,7 @@
             this.BackColor = System.Drawing.Color.LavenderBlush;
             this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label4);
@@ -191,5 +203,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button4;
     }
 }

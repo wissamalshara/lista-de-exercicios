@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label6
@@ -111,6 +112,16 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Teal;
+            this.button4.Location = new System.Drawing.Point(212, 47);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(190, 58);
+            this.button4.TabIndex = 32;
+            this.button4.Text = "Voltar ao menu";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
             // Form6
             // 
             this.AcceptButton = this.button2;
@@ -119,6 +130,7 @@
             this.BackColor = System.Drawing.Color.SlateBlue;
             this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
@@ -126,7 +138,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label6);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form6";
             this.Text = "Form6";
             this.Load += new System.EventHandler(this.Form6_Load);
@@ -144,5 +156,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button4;
     }
 }

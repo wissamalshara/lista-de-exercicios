@@ -26,6 +26,14 @@ namespace lista_de_exercicios
             textBox3.Clear();
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.FormClosed += (s, args) => this.Show();
+            this.Hide();
+            menu.Show();
+        }
+
         public Form3()
         {
             InitializeComponent();

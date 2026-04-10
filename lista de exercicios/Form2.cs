@@ -42,6 +42,14 @@ namespace lista_de_exercicios
 
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.FormClosed += (s, args) => this.Show();
+            this.Hide();
+            menu.Show();
+        }
+
         public Form2()
         {
             InitializeComponent();

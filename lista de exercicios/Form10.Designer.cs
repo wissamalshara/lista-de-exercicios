@@ -37,6 +37,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button3
@@ -130,6 +131,16 @@
             this.label4.TabIndex = 19;
             this.label4.Text = "PROGRAMA PARA REALIZAR UMA EQUAÇÃO";
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Teal;
+            this.button4.Location = new System.Drawing.Point(314, 358);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(190, 58);
+            this.button4.TabIndex = 20;
+            this.button4.Text = "Voltar ao menu";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
             // Form10
             // 
             this.AcceptButton = this.button2;
@@ -137,6 +148,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -165,5 +177,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button4;
     }
 }

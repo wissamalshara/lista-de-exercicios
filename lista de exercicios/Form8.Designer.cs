@@ -64,6 +64,7 @@
             this.label14 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox3
@@ -295,7 +296,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(92, 443);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(56, 51);
             this.button1.TabIndex = 16;
@@ -306,7 +307,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(227, 443);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(56, 51);
             this.button2.TabIndex = 17;
@@ -317,7 +318,7 @@
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(341, 443);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(56, 51);
             this.button3.TabIndex = 18;
@@ -328,7 +329,7 @@
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(460, 443);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(56, 51);
             this.button4.TabIndex = 19;
@@ -339,7 +340,7 @@
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(589, 443);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(56, 51);
             this.button5.TabIndex = 20;
@@ -421,6 +422,16 @@
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.Teal;
+            this.button8.Location = new System.Drawing.Point(674, 233);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(76, 180);
+            this.button8.TabIndex = 52;
+            this.button8.Text = "Voltar ao menu";
+            this.button8.UseVisualStyleBackColor = false;
+            // 
             // Form8
             // 
             this.AcceptButton = this.button7;
@@ -428,6 +439,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.button6;
             this.ClientSize = new System.Drawing.Size(754, 586);
+            this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.label14);
@@ -464,7 +476,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form8";
             this.Text = "Form8";
             this.Load += new System.EventHandler(this.Form8_Load);
@@ -511,5 +523,6 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
     }
 }

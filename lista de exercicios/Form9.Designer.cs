@@ -44,6 +44,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label
@@ -211,6 +212,16 @@
             this.label10.TabIndex = 48;
             this.label10.Text = "vezes 10:";
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Teal;
+            this.button4.Location = new System.Drawing.Point(301, 70);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(190, 58);
+            this.button4.TabIndex = 49;
+            this.button4.Text = "Voltar ao menu";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
             // Form9
             // 
             this.AcceptButton = this.button2;
@@ -218,6 +229,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -260,5 +272,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button button4;
     }
 }

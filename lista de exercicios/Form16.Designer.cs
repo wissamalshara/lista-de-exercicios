@@ -37,6 +37,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button3
@@ -128,6 +129,16 @@
             this.label4.TabIndex = 40;
             this.label4.Text = "PROGRAMA PARA GERAR O PREÇO DE UM PRODUTO BASEADO NO ACRÉSSIMO EM PORCENTAGEM";
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Teal;
+            this.button4.Location = new System.Drawing.Point(284, 516);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(190, 58);
+            this.button4.TabIndex = 41;
+            this.button4.Text = "Voltar ao menu";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
             // Form16
             // 
             this.AcceptButton = this.button2;
@@ -135,6 +146,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(754, 586);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -144,7 +156,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form16";
             this.Text = "Form16";
             this.ResumeLayout(false);
@@ -162,5 +174,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button4;
     }
 }

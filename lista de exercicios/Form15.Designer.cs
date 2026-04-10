@@ -35,6 +35,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button2
@@ -111,6 +112,16 @@
             this.label6.TabIndex = 34;
             this.label6.Text = "PROGRAMA PARA CALCULAR O VALOR DE UM PRODUTO DE UMA PARCELA EM 5 VEZES";
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Teal;
+            this.button4.Location = new System.Drawing.Point(211, 296);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(190, 58);
+            this.button4.TabIndex = 39;
+            this.button4.Text = "Voltar ao menu";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
             // Form15
             // 
             this.AcceptButton = this.button2;
@@ -119,6 +130,7 @@
             this.BackColor = System.Drawing.Color.Violet;
             this.CancelButton = this.button3;
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
@@ -126,7 +138,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label6);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form15";
             this.Text = "Form15";
             this.ResumeLayout(false);
@@ -143,5 +155,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button4;
     }
 }
